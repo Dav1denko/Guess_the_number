@@ -37,9 +37,9 @@ func main() {
 		}
 
 		if guess > target {
-			fmt.Println("Ваше значение больше чем загоданое")
+			fmt.Println("Ваше значение больше чем загоданое!")
 		} else if guess < target {
-			fmt.Println("Ваше значение меньше чем загоданое")
+			fmt.Println("Ваше значение меньше чем загоданое!")
 
 		} else {
 			success = true
